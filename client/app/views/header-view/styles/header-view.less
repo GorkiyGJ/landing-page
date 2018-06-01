@@ -1,0 +1,47 @@
+header {
+  .menu-wrapper {
+    position: fixed;
+    background-color: rgb(46,111,221);
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+
+    .custom-menu {
+      position: relative;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
+
+      &.custom-menu-brand {
+        float: left;
+        position: absolute;
+        left: 0;
+      }
+
+      .menu-item-brand, .menu-item {
+        display: inline-block;
+        position: relative;
+        padding: .5em 1em;
+        text-transform: uppercase;
+        color:white;
+        font-family: PTSans;
+        font-size: 1.5em;
+        text-decoration: none;
+        &:hover{
+          cursor:pointer;
+        }
+      }
+
+      .menu-item:hover {
+        color:#ddd8ea;
+      }
+    }
+
+
+  }
+
+
+}

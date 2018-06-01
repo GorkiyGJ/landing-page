@@ -1,0 +1,12 @@
+{
+  "name": "rtb-resell-web-service",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "forever start run.js",
+    "start_dev": "forever start -c NODE_ENV=development node run.js"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "throng": "git://github.com/GorkiyGJ/throng.git"
+  }
+}

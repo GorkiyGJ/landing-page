@@ -1,0 +1,15 @@
+{
+  "workersCount": 1,
+  "worker": {
+    "workerExec":"web-service.js",
+    "grace": 500
+  },
+  "webService": {
+    "runSecureHttp":false,
+    "httpPort":"800",
+    "httpsPort":"433"
+  },
+  "app":{
+    "publicDirectoryPath":"C:\\Projects\\izi-trade-project\\izi-trade-landing-page\\client\\public"
+  }
+}

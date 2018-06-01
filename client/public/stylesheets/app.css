@@ -1,0 +1,200 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html,
+content {
+  height: 100%;
+}
+/*
+ * -- PURE BUTTON STYLES --
+ * I want my pure-button elements to look a little different
+ */
+.pure-button {
+  background-color: #1f8dd6;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+}
+a.pure-button-primary {
+  background: white;
+  color: #1f8dd6;
+  border-radius: 5px;
+  font-size: 120%;
+}
+
+
+
+header .menu-wrapper {
+  position: fixed;
+  background-color: #2e6fdd;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+}
+header .menu-wrapper .custom-menu {
+  position: relative;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+header .menu-wrapper .custom-menu.custom-menu-brand {
+  float: left;
+  position: absolute;
+  left: 0;
+}
+header .menu-wrapper .custom-menu .menu-item-brand,
+header .menu-wrapper .custom-menu .menu-item {
+  display: inline-block;
+  position: relative;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  color: white;
+  font-family: PTSans;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+header .menu-wrapper .custom-menu .menu-item-brand:hover,
+header .menu-wrapper .custom-menu .menu-item:hover {
+  cursor: pointer;
+}
+header .menu-wrapper .custom-menu .menu-item:hover {
+  color: #ddd8ea;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url(/fonts/PTSans.ttc);
+}
+@font-face {
+  font-family: "PTSerif";
+  src: url(/fonts/PTSerif.ttc);
+}
+.home-page-content {
+  height: 100%;
+}
+.home-page-content .fixed-bg {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.home-page-content .fixed-bg .white-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(246, 245, 250, 0.9);
+}
+.home-page-content .fixed-bg.bg-1 {
+  background-image: url("/images/code.jpg");
+}
+.home-page-content .fixed-bg.bg-2 {
+  background-image: url("/images/bg2.jpg");
+}
+.home-page-content .fixed-bg.bg-3 {
+  background-image: url("/images/bg3.jpg");
+}
+.home-page-content .fixed-bg.bg-4 {
+  background-image: url("/images/bg4.jpg");
+}
+@media only screen and (min-width: 1170px) {
+  .home-page-content .fixed-bg {
+    background-attachment: fixed;
+  }
+}
+.home-page-content h1,
+.home-page-content h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.home-page-content h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+}
+@media only screen and (min-width: 768px) {
+  .home-page-content h1,
+  .home-page-content h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .home-page-content h1,
+  .home-page-content h2 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
+.home-page-content .scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  z-index: 2;
+}
+.home-page-content .scrolling-bg.color-1 {
+  background-color: #2e6fdd;
+}
+.home-page-content .scrolling-bg.color-2 {
+  background-color: #2b5a88;
+}
+.home-page-content .scrolling-bg.color-3 {
+  background-color: #9b819c;
+}
+.home-page-content .bg-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+}
+.home-page-content .bg-container.contacts h1 {
+  color: white;
+  text-shadow: none;
+  font-family: PTSerif;
+}
+.home-page-content .bg-container.under-construction {
+  width: 50%;
+}
+.home-page-content .bg-container.under-construction .under-construction-text-block {
+  margin-bottom: 66px;
+}
+.home-page-content .bg-container.under-construction .under-construction-text-block span {
+  color: #333333;
+}
+.home-page-content .bg-container.under-construction h1 {
+  color: #2e6fdd;
+  text-shadow: none;
+  font-family: PTSerif;
+}
+
+
+/*# sourceMappingURL=app.css.map*/
